@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Light Alice Blue */
+    color: #333; /* Dark Gray */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff; /* White */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    text-align: center;
+    border: 2px solid #e74c3c; /* Red Border */
+    position: relative; /* For absolute positioning of tree image */
+}
+
+.tree-image {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: -50px; /* Adjust based on your needs */
+    right: 20px; /* Adjust based on your needs */
+}
+
+h1 {
+    color: #e74c3c; /* Red */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.message {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #2c3e50; /* Dark Blue-Gray */
+}
+
+.wish {
+    font-size: 1.1em;
+    color: #3498db; /* Light Blue */
+}
